@@ -1,0 +1,39 @@
+<RelativeLayout
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!-- <Button
+            android:id="@+id/playButton"
+            android:layout_width="234dp"
+            android:layout_height="366dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:gravity="center_vertical"
+            android:text="Pause" />-->
+<!--<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:foregroundGravity="center"
+    android:layout_marginTop="100dp">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:srcCompat="@color/colorAccent"
+            android:focusable="true" />
+</LinearLayout>-->
+    </WebView>
+</RelativeLayout>
